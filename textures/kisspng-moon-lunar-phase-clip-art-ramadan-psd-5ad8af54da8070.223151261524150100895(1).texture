@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "kisspng-moon-lunar-phase-clip-art-ramadan-psd-5ad8af54da8070.223151261524150100895(1)",
+  "identifier": "texture:2412-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "6afb7103082a48c26f988e90b0f24e3a",
+  "assetLocator": "textures/kisspng-moon-lunar-phase-clip-art-ramadan-psd-5ad8af54da8070.223151261524150100895(1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 600,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 589,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "6afb7103082a48c26f988e90b0f24e3a",
+      "colorCount": 19171,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.035313961666587,
+      "pixelsHigh": 600,
+      "pixelsWide": 589
+    }
+  ]
+}

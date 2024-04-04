@@ -1,0 +1,80 @@
+{
+  "id": "1210305f201ec094b64cd9885bfc1a5405671b",
+  "revision": "19049e84f80bf23f4461991bd3a9e36dfd309",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 180
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:11543-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "fromPatch": "template_patch_model:11391-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:11541-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:11545-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "fromPatch": "template_patch_model:11541-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:11243-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:121118-5f201ec0-94b6-4cd9-885b-fc1a5405671b",
+        "subpatches": [
+          "consumer_patch_model:11243-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+          "template_patch_model:11391-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+          "template_patch_model:11541-e84f80bf-23f4-4619-91bd-3a9e36dfd309"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "audioPlaybackController0",
+        "identifier": "consumer_patch_model:11243-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "object": "playback_controller_model:10305-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "objectProperty": "audio_playback_controller_play",
+        "position": [
+          2028.9999543279416,
+          607.6499852292243
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Screen Tap",
+        "identifier": "template_patch_model:11391-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "position": [
+          1750.0999615922574,
+          561.3999859184029
+        ],
+        "templateId": "builtin.tapGesture"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Switch",
+        "identifier": "template_patch_model:11541-e84f80bf-23f4-4619-91bd-3a9e36dfd309",
+        "position": [
+          1892,
+          572
+        ],
+        "templateId": "builtin.toggle"
+      }
+    ]
+  }
+}
